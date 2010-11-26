@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_board [English]
+* acp_board [Brazilian Portuguese]
 *
 * @package language
 * @version $Id$
-* @copyright (c) 2005 phpBB Group
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
 *
 */
 
