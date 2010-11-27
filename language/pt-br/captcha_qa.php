@@ -38,28 +38,28 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;A',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'This question is a means of preventing automated form submissions by spambots.',
-	'CONFIRM_QUESTION_WRONG'	=> 'You have provided an invalid answer to the question.',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Esta pergunta é uma maneira de  prevenir envios automáticos de spambots.',
+	'CONFIRM_QUESTION_WRONG'	=> 'Você digitou uma resposta inválida para a pergunta.',
 
-	'QUESTION_ANSWERS'			=> 'Answers',
-	'ANSWERS_EXPLAIN'			=> 'Please enter valid answers to the question, one per line.',
-	'CONFIRM_QUESTION'			=> 'Question',
+	'QUESTION_ANSWERS'			=> 'Respostas',
+	'ANSWERS_EXPLAIN'			=> 'Por favor, digite respostas válidas para a pergunta, uma por linha.',
+	'CONFIRM_QUESTION'			=> 'Pergunta',
 
-	'ANSWER'					=> 'Answer',
-	'EDIT_QUESTION'				=> 'Edit Question',
-	'QUESTIONS'					=> 'Questions',
-	'QUESTIONS_EXPLAIN'			=> 'For every form submission where you have enabled the Q&amp;A plugin, users will be asked one of the questions specified here. To use this plugin at least one question must be set in the default language. These questions should be easy for your target audience to answer but beyond the ability of a bot capable of running a Google™ search. Using a large and regularly changed set of questions will yield the best results. Enable the strict setting if your question relies on mixed case, punctuation or whitespace.',
-	'QUESTION_DELETED'			=> 'Question deleted',
-	'QUESTION_LANG'				=> 'Language',
-	'QUESTION_LANG_EXPLAIN'		=> 'The language this question and its answers are written in.',
-	'QUESTION_STRICT'			=> 'Strict check',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Enable to enforce mixed case, punctuation and whitespace.',
+	'ANSWER'					=> 'Resposta',
+	'EDIT_QUESTION'				=> 'Editar pergunta',
+	'QUESTIONS'					=> 'Perguntas',
+	'QUESTIONS_EXPLAIN'			=> 'Para cada apresentação do formulário onde o plugin Q&amp;A estiver ativado, os usuários serão solicitados a responder uma perguntar especificada aqui. Para usar este plugin, ao menos uma questão deve se definida no idioma padrão. Essa perguntas devem ser fáceis para o público alvo em que você deseja atingir, mas que dificulte a capacidade dos bots em achar as respostas em pesquisas do Google™. Usando um largo e diversificado número de perguntas trará melhores resultados. Ative a configuração strict se sua pergunta requer o uso de maiúsculas e minúsculas, pontuação ou espaços em branco.',
+	'QUESTION_DELETED'			=> 'Pergunta excluída',
+	'QUESTION_LANG'				=> 'Idioma',
+	'QUESTION_LANG_EXPLAIN'		=> 'O idioma em que essa pergunta e suas respostas estão escritas.',
+	'QUESTION_STRICT'			=> 'Verificar Strict',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Ativar mistura de maiúsculas e minusculas, pontuação e espaços em branco.',
 
-	'QUESTION_TEXT'				=> 'Question',
-	'QUESTION_TEXT_EXPLAIN'		=> 'The question presented to the user.',
+	'QUESTION_TEXT'				=> 'Pergunta',
+	'QUESTION_TEXT_EXPLAIN'		=> 'A pergunta apresentada ao usuário.',
 
-	'QA_ERROR_MSG'				=> 'Please fill in all fields and enter at least one answer.',
-	'QA_LAST_QUESTION'			=> 'You cannot delete all questions while the plugin is active.',
+	'QA_ERROR_MSG'				=> 'Por favor, preencha todos os campos e digite ao menos uma resposta.',
+	'QA_LAST_QUESTION'			=> 'Você não pode excluir todas as perguntas enquanto este plugin estiver ativo.',
 
 ));
 
